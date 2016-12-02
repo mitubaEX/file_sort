@@ -1,6 +1,6 @@
 #!/bin/sh
 
-find . -maxdepth 1 -type f |
+find $1 -maxdepth 1 -type f |
 while read -r file;
 do
 
